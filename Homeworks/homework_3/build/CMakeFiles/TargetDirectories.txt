@@ -1,0 +1,5 @@
+/home/omerayvaz/Homeworks/homework_3/build/CMakeFiles/html_writer.dir
+/home/omerayvaz/Homeworks/homework_3/build/CMakeFiles/image_browser.dir
+/home/omerayvaz/Homeworks/homework_3/build/CMakeFiles/main.dir
+/home/omerayvaz/Homeworks/homework_3/build/CMakeFiles/edit_cache.dir
+/home/omerayvaz/Homeworks/homework_3/build/CMakeFiles/rebuild_cache.dir

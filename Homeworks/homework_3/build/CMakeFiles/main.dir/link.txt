@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/code/main.cpp.o -o main  libhtml_writer.a libimage_browser.a libhtml_writer.a libimage_browser.a 

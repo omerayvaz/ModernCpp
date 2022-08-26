@@ -1,0 +1,7 @@
+/home/omerayvaz/Homeworks/homework_5/build/CMakeFiles/edit_cache.dir
+/home/omerayvaz/Homeworks/homework_5/build/CMakeFiles/rebuild_cache.dir
+/home/omerayvaz/Homeworks/homework_5/build/src/CMakeFiles/mat_serialization.dir
+/home/omerayvaz/Homeworks/homework_5/build/src/CMakeFiles/convert_dataset.dir
+/home/omerayvaz/Homeworks/homework_5/build/src/CMakeFiles/main.dir
+/home/omerayvaz/Homeworks/homework_5/build/src/CMakeFiles/edit_cache.dir
+/home/omerayvaz/Homeworks/homework_5/build/src/CMakeFiles/rebuild_cache.dir

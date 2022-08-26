@@ -18,9 +18,8 @@ void ConvertDataset(const convert_datas::path &img_path) {
   if (convert_datas::exists(img_path)) {
     return;
   }
-  for (const convert_datas::directory_entry &dir_entry :
-       convert_datas::directory_iterator{img_path}) {
-    if convert_datas::path(dir_entry).extension() == ".png") {
+  for (const convert_datas::directory_entry &dir_entry : convert_datas::directory_iterator{img_path}) {
+    if (convert_datas::path(dir_entry).extension() == ".png") {
 
         cv::Mat image = cv::imread(dir_entry.path());
         std::vector<cv::KeyPoint> keypoints;

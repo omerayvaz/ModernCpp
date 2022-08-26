@@ -10,12 +10,11 @@ namespace convert_datas = std::filesystem;
 namespace ipb::serialization::sifts {
 void ConvertDataset(const convert_datas::path &img_path) {
   convert_datas::path bin_path =
-      convert_datas::weakly_canonical(img_path).parent_path() /
-      convert_datas::path("bin");
-  if (convert_datas::exists(bin_path)) {
+      convert_datas::weakly_canonical(img_path).parent_path() / convert_datas::path("bin");
+  if (!convert_datas::exists(bin_path)) {
     convert_datas::create_directories(bin_path);
   }
-  if (convert_datas::exists(img_path)) {
+  if (!convert_datas::exists(img_path)) {
     return;
   }
   for (const convert_datas::directory_entry &dir_entry : convert_datas::directory_iterator{img_path}) {
@@ -32,8 +31,7 @@ void ConvertDataset(const convert_datas::path &img_path) {
 
         extractor->compute(image, keypoints, descriptor);
 
-        convert_datas::path file_name =
-            dir_entry.path().filename().stem().string() + ".bin";
+        convert_datas::path file_name = dir_entry.path().filename().stem().string() + ".bin";
         convert_datas::path file_path = bin_path / file_name;
         Serialize(descriptor, file_path);
       }

@@ -1,2 +1,0 @@
-/home/omerayvaz/Homeworks/homework_6/CMakeFiles/edit_cache.dir
-/home/omerayvaz/Homeworks/homework_6/CMakeFiles/rebuild_cache.dir
